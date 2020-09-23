@@ -38,7 +38,7 @@ export default e =>{
         }
         
         addNotConformitie(newNotConformitie)
-        // alert('Registrado com Sucesso')
+        alert('Registrado com Sucesso')
         setDate('');
         setDepartament('');
         setDescription('');
