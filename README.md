@@ -1,1 +1,1 @@
-Npm install, npm install react-router-dom, npm start
+Npm install, npm start
