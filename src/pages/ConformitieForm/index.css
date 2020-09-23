@@ -1,0 +1,84 @@
+.desc-validator{
+    opacity: 1;
+    position: absolute;
+    top:0;
+    margin-top: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(207, 109, 109);
+    transition: 0.2s;
+}
+
+.form-structure{
+    /* border: solid black 1px; */
+    width: 90%;
+    height: 430px;
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    overflow-y: hidden;
+    
+
+}
+
+.form-structure h1{
+    margin: 15px;
+    font-size: 2rem;
+}
+
+.form-structure form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-icon-img{
+    width: 40px;  
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: relative;
+
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.register-form input{
+    width: 250px;
+    
+    margin-bottom: 20px;
+}
+
+
+/* Description field */
+.register-form textarea{
+    resize: none;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 90px;
+
+}
+
+.register-form select{
+    margin-bottom: 25px;
+}
+
+
+
+

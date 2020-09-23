@@ -1,0 +1,36 @@
+.corrective-action-structure{
+
+    height: 450px;
+    width: 100%;
+
+}
+
+.corrective-action-structure .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    
+}
+
+.action-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 80%;
+
+}
+
+.action-form textarea{
+    width: 80%;
+    height: 60px;
+    resize: none;
+}
+
+.action-form .form-btn{
+    margin-top: 10px;
+}
